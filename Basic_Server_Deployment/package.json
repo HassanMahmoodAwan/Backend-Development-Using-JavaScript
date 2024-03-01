@@ -1,0 +1,19 @@
+{
+  "name": "backendserver",
+  "version": "1.0.0",
+  "description": "Learning Backend with deployment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "Chai"
+  ],
+  "author": "Hassan Awan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
