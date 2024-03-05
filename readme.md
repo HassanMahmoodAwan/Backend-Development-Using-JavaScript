@@ -6,3 +6,11 @@
 
 
 ### First think how to store data
+
+### Timestamps = true:
+> gives 2 fields
+>  - createAt
+> - updatedAt
+
+
+### GitIgnore Generator & GitKeep:
