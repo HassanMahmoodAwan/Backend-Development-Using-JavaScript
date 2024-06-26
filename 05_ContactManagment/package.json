@@ -1,0 +1,27 @@
+{
+  "name": "05_contactmanagment",
+  "version": "1.0.0",
+  "description": "This is Backend Learning Series",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": [
+    "Express",
+    "nodejs",
+    "javaScript",
+    "mongoDb"
+  ],
+  "author": "Hassan Mahmood",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.4"
+  }
+}
