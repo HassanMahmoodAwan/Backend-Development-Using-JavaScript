@@ -6,7 +6,9 @@ const {
     updateContact,
     deleteContact
 } = require("../Controllers/contactsController")
+const verifyToken = require('../Middlewares/verifyTokenHandler')
 const router = express.Router()
+router.use(verifyToken)
 
 
 // =========== Get Request ============
